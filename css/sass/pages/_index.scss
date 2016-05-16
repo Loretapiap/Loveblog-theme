@@ -1,0 +1,16 @@
+/*index*/
+.service_area {
+	h2 {color: #e8603c; width: 100%;}
+}
+
+.single_work_container {
+	width: 100%;
+	.single_work, .single_blog_post {
+		img {width: 100%;}
+	}
+}
+
+.blog_post_meta {
+	border: 1px solid grey; border-top-width: 0;
+	padding: 1%;
+}

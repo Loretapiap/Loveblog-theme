@@ -1,0 +1,12 @@
+/*Footer*/
+div.footer_area {
+	background-color: pink;
+	div.footer {
+		background-color: #e8603c;
+		div.single_footer {float: left; width: 33.3%;}
+
+	}
+	div.social_area {
+		li {list-style: none; display: inline-block;}
+	}
+}

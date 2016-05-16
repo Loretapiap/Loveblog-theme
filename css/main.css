@@ -1,6 +1,85 @@
-header {
-  display: inline-block; }
-  header ul.nav li {
-    list-style: none; }
+/*Header*/
+header.header_area {
+  display: inline-block;
+  width: 100%; }
+  header.header_area a {
+    text-decoration: none; }
+  header.header_area div.logo {
+    font-family: Bebas;
+    float: left; }
+    header.header_area div.logo h1 span {
+      color: pink; }
+  header.header_area div.mainmenu {
+    float: right;
+    width: 30%;
+    margin-top: 2%; }
+    header.header_area div.mainmenu ul#nav li {
+      list-style: none;
+      display: inline;
+      padding: 2%;
+      width: 100%; }
+      header.header_area div.mainmenu ul#nav li a {
+        color: grey; }
+      header.header_area div.mainmenu ul#nav li .active {
+        color: orange;
+        font-weight: bold; }
+
+div#ei-slider img {
+  width: 100%;
+  height: auto; }
+
+/*Footer*/
+div.footer_area {
+  background-color: pink; }
+  div.footer_area div.footer {
+    background-color: #e8603c; }
+    div.footer_area div.footer div.single_footer {
+      float: left;
+      width: 33.3%; }
+  div.footer_area div.social_area li {
+    list-style: none;
+    display: inline-block; }
+
+/*Globals*/
+h4 {
+  color: #e8603c; }
+
+h3 {
+  color: #999999; }
+
+.from_blog h2, .from_works h2 {
+  background-image: url(../images/heading-bg.png); }
+  .from_blog h2 span, .from_works h2 span {
+    color: #e8603c;
+    background-color: white;
+    padding: 1%; }
+
+@font-face {
+  font-family: 'Bebas';
+  src: url("font/bebas___-webfont.eot");
+  /* IE9 Compat Modes */
+  src: url("font/bebas___-webfont.eot?#iefix") format("embedded-opentype"), url("font/bebas___-webfont.woff2") format("woff2"), url("font/bebas___-webfont.woff") format("woff"), url("font/BEBAS___.ttf") format("truetype"), url("font/bebas___-webfont.svg#svgBebas") format("svg");
+  /* Legacy iOS */ }
+@font-face {
+  font-family: 'Helvetica';
+  src: url("font/HelveticaNeue.eot");
+  /* IE9 Compat Modes */
+  src: url("font/HelveticaNeue.eot?#iefix") format("embedded-opentype"), url("font/HelveticaNeue.woff2") format("woff2"), url("font/HelveticaNeue.woff") format("woff"), url("font/HelveticaNeue.ttf") format("truetype"); }
+/*index*/
+.service_area h2 {
+  color: #e8603c;
+  width: 100%; }
+
+.single_work_container {
+  width: 100%; }
+  .single_work_container .single_work img, .single_work_container .single_blog_post img {
+    width: 100%; }
+
+.blog_post_meta {
+  border: 1px solid grey;
+  border-top-width: 0;
+  padding: 1%; }
+
+/*Variables*/
 
 /*# sourceMappingURL=main.css.map */

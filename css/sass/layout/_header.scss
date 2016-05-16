@@ -1,6 +1,30 @@
-header {
+/*Header*/
+
+header.header_area {
+	a{text-decoration: none;}
 	display: inline-block;
-	ul.nav li{
-		list-style: none;
+	width: 100%;
+	div.logo {
+		font-family: Bebas;
+		float: left;
+				h1 {
+					span {color: pink;}
+				}
+			}
+	div.mainmenu { float: right; width: 30%; margin-top: 2%;
+			ul#nav li{
+					a {color: grey;}
+					list-style: none; 
+					display: inline;
+					padding: 2%;
+					width: 100%;
+
+					.active {color: orange; font-weight: bold;}
+				}
 	}
+}
+
+div#ei-slider {
+	img {width: 100%;
+		height: auto;}
 }

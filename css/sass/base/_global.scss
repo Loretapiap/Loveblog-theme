@@ -1,0 +1,31 @@
+/*Globals*/
+
+h4 {color: #e8603c;}
+h3 {color: #999999;}
+.from_blog h2, .from_works h2 {
+  background-image: url(../images/heading-bg.png);
+    span {
+      color: #e8603c;
+      background-color: white;
+      padding: 1%;}
+    }
+
+@font-face {
+  font-family: 'Bebas';
+  src: url('font/bebas___-webfont.eot'); /* IE9 Compat Modes */
+  src: url('font/bebas___-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/bebas___-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/bebas___-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('font/BEBAS___.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('font/bebas___-webfont.svg#svgBebas') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('font/HelveticaNeue.eot'); /* IE9 Compat Modes */
+  src: url('font/HelveticaNeue.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/HelveticaNeue.woff2') format('woff2'), /* Super Modern Browsers */
+       url('font/HelveticaNeue.woff') format('woff'), /* Pretty Modern Browsers */
+       url('font/HelveticaNeue.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
