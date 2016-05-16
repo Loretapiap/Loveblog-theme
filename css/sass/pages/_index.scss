@@ -1,6 +1,15 @@
 /*index*/
 .service_area {
+	padding: 4%;
 	h2 {color: #e8603c; width: 100%;}
+	.single_service {
+		p {color: #999999;}
+		a {
+			background-color: #e8603c;
+			padding: 2%;
+			color: white;
+		}
+	}
 }
 
 .single_work_container {
@@ -14,3 +23,5 @@
 	border: 1px solid grey; border-top-width: 0;
 	padding: 1%;
 }
+
+.from_blog, .from_works {padding-bottom: 4%;}

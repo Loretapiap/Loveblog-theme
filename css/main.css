@@ -66,9 +66,17 @@ h3 {
   /* IE9 Compat Modes */
   src: url("font/HelveticaNeue.eot?#iefix") format("embedded-opentype"), url("font/HelveticaNeue.woff2") format("woff2"), url("font/HelveticaNeue.woff") format("woff"), url("font/HelveticaNeue.ttf") format("truetype"); }
 /*index*/
-.service_area h2 {
-  color: #e8603c;
-  width: 100%; }
+.service_area {
+  padding: 4%; }
+  .service_area h2 {
+    color: #e8603c;
+    width: 100%; }
+  .service_area .single_service p {
+    color: #999999; }
+  .service_area .single_service a {
+    background-color: #e8603c;
+    padding: 2%;
+    color: white; }
 
 .single_work_container {
   width: 100%; }
@@ -79,6 +87,9 @@ h3 {
   border: 1px solid grey;
   border-top-width: 0;
   padding: 1%; }
+
+.from_blog, .from_works {
+  padding-bottom: 4%; }
 
 /*Variables*/
 
