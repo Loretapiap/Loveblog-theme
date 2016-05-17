@@ -1,5 +1,11 @@
+@import 'helpers/_variables.scss';
+@import 'helpers/_mixins.scss';
+@import 'base/_global.scss';
 @import 'layout/_header.scss';
 @import 'layout/_footer.scss';
-@import 'base/_global.scss';
 @import 'pages/_index.scss';
-@import 'helpers/_variables.scss';
+@import 'pages/_single.scss';
+@import 'pages/_contact.scss';
+@import 'pages/_portfolio.scss';
+@import 'pages/_blog.scss';
+@import 'layout/_responsive.scss';

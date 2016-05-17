@@ -28,3 +28,17 @@ div#ei-slider {
 	img {width: 100%;
 		height: auto;}
 }
+
+/*Subtitulo*/
+
+div.sb_area {
+	@include ft-bg;
+	div.subtitulo {
+
+		div.container {
+			border-color: white;
+			border-style: solid;
+			border-width: 0px 30px 0px 30px;
+			background-color: #e8603c;	}
+	}
+}

@@ -1,9 +1,22 @@
 /*Footer*/
+
+@import '../helpers/_variables.scss';
+
+
 div.footer_area {
-	background-color: pink;
+	@include ft-bg;
 	div.footer {
-		background-color: #e8603c;
-		div.single_footer {float: left; width: 33.3%;}
+
+		div.container {
+			border-color: white;
+			border-style: solid;
+			border-width: 0px 30px 0px 30px;
+			background-color: #e8603c;
+			div.single_footer {
+			float: left; width: 33.3%;
+		}
+		}
+		
 
 	}
 	div.social_area {

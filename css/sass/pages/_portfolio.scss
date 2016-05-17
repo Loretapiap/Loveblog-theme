@@ -1,0 +1,8 @@
+.nav-pt {
+	li:first-child {font-weight: bold; text-transform: uppercase;}
+	li:nth-child(2) a{color: white;}
+	li:first-child a:hover{background-color: white;}
+	ul li a, li:nth-child(2) a:hover{@include tx-gr;}
+	li.active2 {@include active; color: white;}
+}
+

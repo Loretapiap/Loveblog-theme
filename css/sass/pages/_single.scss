@@ -1,0 +1,18 @@
+/*About*/
+
+.cnt {padding-top: 2%;
+	p {padding: 1%;}
+	li {list-style: none;}
+	@include cnt-bg;
+		.col-md-9 {
+			div.or {
+				@include or-tx;
+			}
+		}
+	.from_blog {
+		div.col-md-12 div.col-md-3 {
+			@include cube;
+		}
+	}
+}
+
